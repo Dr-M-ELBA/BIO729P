@@ -46,4 +46,5 @@ plt.plot(no_neighbors, train_accuracy, label = 'Training Accuracy')
 plt.legend()
 plt.xlabel('Number of Neighbors')
 plt.ylabel('Accuracy')
-plt.show() ```
+plt.show()
+```
