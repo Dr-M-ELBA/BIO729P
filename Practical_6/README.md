@@ -15,9 +15,10 @@ Today we will look at how to featurise drugs and train learners to predict blood
 
 ```
 
-2. Once installed, you will need to select a drug to explore RDKIT's features. For this you will need its SMILES representation. Head over to PubChem and search for a drug. For example, "Paracetamol". You'll be presented with 'molecule cards'. Copy and paste the SMILES notation from, as illustrated below and highlighted by the orange arrow:
+2. Once installed, you will need to select a drug to explore RDKIT's features. For this you will need its SMILES representation. Head over to PubChem and search for a drug. For example, "Paracetamol". You'll be presented with 'molecule cards'. Copy and paste the SMILES notation from the molecule card, as illustrated below and highlighted by the orange box:
 
-<img width="858" alt="image" src="https://github.com/Dr-M-ELBA/Practical_6/assets/158515515/c641ca03-b2e4-41c0-9afe-36396ef61c9b">
+<img width="1281" alt="image" src="https://github.com/Dr-M-ELBA/BIO729P/assets/158515515/b7e6b36b-e8c0-419a-8f24-911c4e2585cf">
+
 
 Then assign the SMILE to a simple variable, as such:
 
