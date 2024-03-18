@@ -24,7 +24,7 @@ All coding was performed using **Python** version (3.7.6)
 
 Writing the results section is possibly the easiest of all the sections. A good template is:
 
-when I..., I found/saw/observed/discovered...., Therefore/thus/hence....
+when I...changed/compared/pre-processed, I found/saw/observed/discovered...., Therefore/thus/hence....
 
 For example: 
 
@@ -35,18 +35,21 @@ For example:
 
 ### Exploratory Data Analysis
 
-![piechart_example](https://github.com/Dr-M-ELBA/Practical_3/assets/158515515/d64f4924-1f3c-4555-8b50-56f845fdd5c9)
 
 
-From the 9 features, the data appeared to be well distributed
+<img width="250" alt="practical 3 - EDA - pie" src="https://github.com/Dr-M-ELBA/BIO729P/assets/158515515/1bd5b6c1-8ab4-410a-8fc4-9a6c63197064">
 
-![boxplot_example](https://github.com/Dr-M-ELBA/Practical_3/assets/158515515/069ee2bc-e140-4f4f-ba04-35d5df82487c)
+When I explored the dataset for the ratio of diabetic to non-diabetic, <ins>I discovered</ins> the ratio to be 98:2. <ins>Therefore</ins>, the dataset was heavily imbalanced.
 
-From the above, it was clear that I will need to use metrics suitable for an imbalanced class datasets. 
+<img width="399" alt="Practical 3 - EDA - boxplot" src="https://github.com/Dr-M-ELBA/BIO729P/assets/158515515/8fcc3b7c-d4dd-47a3-9c8d-033dd7b9f4a4">
+
+
+
+When I examined the 'Age' feature, I found the data to be distributed within the minimum and maximum ranges, and no outliers were observed.
 
 
 ### Model Training & Evaluation
-I trained 4 different learners were there accuracy, f1 score and matthews coefficient correlation (MCC) were:
+I trained 4 different learners where their accuracy, f1 score and matthews coefficient correlation (MCC) were:
 
 | Model | Accuracy (%) | F1 (%) | MCC |
 | ------------- | ------------- | ------------- | ------------- |
