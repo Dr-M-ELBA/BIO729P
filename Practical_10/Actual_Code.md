@@ -2,7 +2,6 @@
 
 
 def active_learning(X, y, n_queries=5):
-    # Remember the original indeices
     original_indices = np.arange(X.shape[0])
 
 
